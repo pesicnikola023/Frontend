@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: white;
+  height: 100vh;
+  background-color: #674baf;
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+header {
+  margin: 5rem 0 7rem 0;
+}
+.container {
+  width: 90%;
+  margin: 0rem auto;
+}
+#logo {
+  width: 10rem;
+  padding-bottom: 3.1rem;
+  padding-left: 1.5rem;
+  padding-top: 1.8rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.main img {
+  width: 50%;
+}
+.text {
+  margin-left: 5rem;
+  padding-bottom: 15rem;
+}
+.text h2 {
+  font-size: 5rem;
+}
+.text p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+}
+.button {
+  border: none;
+  outline: none;
+  color: hsl(257, 40%, 49%);
+  padding: 1rem 6rem;
+  margin: 1.5rem;
+  border: 0.1rem solid;
+  border-radius: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.social ul {
+  list-style: none;
+  display: flex;
+  font-size: 2.7rem;
+  align-items: center;
+  margin-top: 10rem;
+  justify-content: flex-end;
+}
+.social ul li {
+  margin-right: 2rem;
+  border: 0.1rem white solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px;
+}
+.social ul li:hover {
+  border: 0.1rem solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
