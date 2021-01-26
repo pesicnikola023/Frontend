@@ -12,10 +12,10 @@ body {
   color: white;
   height: 100vh;
   background-color: #674baf;
-  background-image: url("../images/bg-desktop.svg");
+  background-image: url("../images/bg-mobile.svg");
+  background-position: top -15px right 0px;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right center;
 }
 header {
   margin: 5rem 0 7rem 0;
@@ -37,7 +37,7 @@ header {
   text-transform: capitalize;
 }
 .main img {
-  width: 50%;
+  width: 55%;
 }
 .text {
   margin-left: 5rem;
@@ -57,7 +57,7 @@ header {
   outline: none;
   color: hsl(257, 40%, 49%);
   padding: 1rem 6rem;
-  margin: 1.5rem;
+  margin-top: 1.5rem;
   border: 0.1rem solid;
   border-radius: 5rem;
   font-size: 2rem;
@@ -69,7 +69,14 @@ header {
   font-size: 2.7rem;
   align-items: center;
   margin-top: 10rem;
+  padding-bottom: 100px;
   justify-content: flex-end;
+  width: 15%;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  height: 60px;
 }
 .social ul li {
   margin-right: 2rem;
